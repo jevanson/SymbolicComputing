@@ -5,7 +5,7 @@ Steps:
     - [x] non-recursive inorder traversal
   - [x] Interpret mathematical expression into postfix expression
   - [x] Generate expression tree from postfix expression
-  - [ ] test cases
+  - [ ] unit testing
     - [ ] infix expression to postix expression
     - [ ] postfix expression to expression tree
     - [ ] expression tree inorder traversal
