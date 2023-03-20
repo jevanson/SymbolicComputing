@@ -1,14 +1,11 @@
-from binarytree import Node
-from binarytree import BinaryTree
-from infixtopostfix import InfixToPostfix
-
+from binarytree import *
+from infixtopostfix import *
 
 class PostfixToExprTree:
 	def __init__(self, postfix):
 		self.postfix = postfix
 		self.top = -1
 		self.array = []
-
 
 	def isEmpty(self):
 		return True if self.top == -1 else False
@@ -44,10 +41,9 @@ class PostfixToExprTree:
 		return root
 
 if __name__ == '__main__':
-	exp = "(a+1)*2"
+	exp = "1*a+b+0"
 	obj = InfixToPostfix(len(exp))
 
-	# Function call
 	postfix = obj.infixtopostfix(exp)
 	print("")
 	print("Postfix expression: " + str(postfix))
@@ -57,3 +53,6 @@ if __name__ == '__main__':
 
 	tree = BinaryTree(root)
 	print(tree.inorder())
+
+	new_tree = BinaryTree( simplify(tree.root) )
+	print(new_tree.inorder())
