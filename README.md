@@ -18,7 +18,7 @@
 
 ## Polynomial Arithmetic
 - Kronecker's method to factor a polynomial $a(x) \in \mathbb{Z}[x]$ such that $a(0) \neq 0$
-- Lensta-Lenstra-Lov`{a}sz lattice basis reduction algorithm
+- Lensta-Lenstra-Lov `{a} sz lattice basis reduction algorithm
 
 Steps:
   - [x] Binary tree data structure for expression tree
