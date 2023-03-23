@@ -12,6 +12,7 @@
 
 ## Prime Numbers
 - Sieve of Eratosthenes
+- Bengalloun's incremental sieve
 - Pritchard's Wheel Sieve
 - Rabin-Miller Test
 - Lucas primality test
