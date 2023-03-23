@@ -11,9 +11,9 @@
 - [ ] Find multiplicative inverse with Extended Euclidean algorithm
 
 ## Prime Numbers
-- [ ] Sieve of Eratosthenes
-- [ ] Bengalloun's incremental sieve
-- [ ] Pritchard's Wheel Sieve
+- [x] Sieve of Eratosthenes
+- [x] Bengalloun's incremental sieve
+- [x] Pritchard's Wheel Sieve
 - [ ] Rabin-Miller Test
 - [ ] Lucas primality test
 
